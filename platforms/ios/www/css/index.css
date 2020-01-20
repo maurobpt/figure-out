@@ -1,0 +1,252 @@
+body {
+    background-color: #C0C0C0;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#TopPage{
+	text-align: center;
+}
+
+#LogoImg{ 
+	margin-top:10px;
+    width: 200px;
+}  
+
+#ButonS{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.header {
+    position: absolute;
+    bottom: 100%-48px;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#Close{
+float: right;
+}
+
+.btleft{
+	left: 0; 
+	position: absolute;
+}
+
+.btcenter{
+	right: 46%;
+	position: absolute
+}
+
+.btright{
+	right: 0; 
+	position: absolute
+}
+
+#Info{
+float: right;
+}
+
+#Exit{
+float: right;
+display: none;
+}
+
+#Back{
+float: left;
+}
+
+#StartButton {
+	-moz-box-shadow:inset 0px 34px 0px -15px #A33F23;
+	-webkit-box-shadow:inset 0px 34px 0px -15px #A33F23;
+	box-shadow:0px 0px 18px #A33F23;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #A33F23), color-stop(1, #A33F23));
+	background:-moz-linear-gradient(top, #A33F23 5%, #A33F23 100%);
+	background:-webkit-linear-gradient(top, #A33F23 5%, #A33F23 100%);
+	background:-o-linear-gradient(top, #A33F23 5%, #A33F23 100%);
+	background:-ms-linear-gradient(top, #A33F23 5%, #A33F23 100%);
+	background:linear-gradient(to bottom, #A33F23 5%, #A33F23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#A33F23', endColorstr='#A33F23',GradientType=0);
+	background-color:#A33F23;
+	border:3px solid #333333;
+	display:inline-block;
+	cursor:pointer;
+	color:#C0C0C0;
+	font-family: "Arial";
+	font-weight:bold;
+	font-size:20px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #A33F23;
+}
+#StartButton :hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #A33F23), color-stop(1, #333333));
+	background:-moz-linear-gradient(top, #A33F23 5%, #A33F23 100%);
+	background:-webkit-linear-gradient(top, #A33F23 5%, #A33F23 100%);
+	background:-o-linear-gradient(top, #A33F23 5%, #A33F23 100%);
+	background:-ms-linear-gradient(top, #A33F23 5%, #A33F23 100%);
+	background:linear-gradient(to bottom, #A33F23 5%, #A33F23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#A33F23', endColorstr='#A33F23',GradientType=0);
+	background-color:#A33F23;
+}
+#StartButton :active {
+	position:relative;
+	top:1px;
+}
+
+#Title{
+	font-family: "Arial";
+	font-weight:bold;
+	color: #A33F23;
+	font-size: 17;
+	padding: 3;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0px 0px 18px #A33F23;
+	margin-top: 0px;
+}
+
+#topDiv{
+	height: 10px;	
+}
+
+.header-text{
+	font-family: "Arial";
+	font-weight:bold;
+	color: #A33F23;
+	font-size: 16px;
+	padding: 3;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.image_foto{
+	max-height: 150px;
+	max-width: 100%;
+	border:3px solid #333333;
+	text-align: center;
+	-moz-box-shadow:inset 0px 34px 0px -15px #A33F23;
+	-webkit-box-shadow:inset 0px 34px 0px -15px #A33F23;
+	box-shadow:0px 0px 18px #A33F23;
+}
+
+h4, h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.inputbox{
+	font-family: "Arial";
+	width: 150px;
+	font-weight:bold;
+	color:#333333;
+	border:3px solid #333333;
+}
+
+.outputDiv{
+	text-align: center; 
+	display: table;
+    margin: 0 auto;
+}
+
+.outputlgp{
+	margin-top: 30%;
+	border:3px solid #333333;
+	background: #333333;
+	border-radius: 10px;
+	box-shadow:0px 0px 18px #A33F23;
+}
+
+.outputaud{
+	margin-top: 40%;
+	border:3px solid #333333;
+	background: #333333;
+	border-radius: 10px;
+	box-shadow:0px 0px 18px #A33F23;
+}
+
+.outputtxt{
+	font-family: "Arial";
+	font-weight:bold;
+	color: #A33F23;
+	font-size: 17;
+	padding: 3;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 45%;
+}
+
+.about{
+	display: none;
+	text-align: center;
+	position: absolute;
+    left: 0;
+	right: 0;
+	bottom : 10%;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+	background: #A33F23;
+	border-radius: 15px;
+	border:3px solid #333333;
+}
+
+.tolltip{
+	visibility: visible;
+	color: #FFFFFF;
+	background: #A33F23;
+	border-radius: 6px;
+	width: 100%;
+	height: 100%;
+}
+
+.LogoAbout{
+	margin-top:5px;
+	width: 124px;
+}
+
+h1{
+	font-family: "Arial";
+	font-weight:bold;
+	color: #333333;
+	padding: 3;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0px 0px 18px #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.textAbout{
+	font-family: "Arial";
+	color: #333333;
+	padding: 3;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0px 0px 18px #ffffff;
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+
+.textAbout a{
+	color: #333333;
+}
+
+#about2{
+	margin-top:30px;
+}
+
+.titleAbout{
+	font-weight:bold;
+}

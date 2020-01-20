@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.Figure.Out" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>FigureOut</name>
+    <description>
+        A simple translation application.
+    </description>
+    <author email="camul2015turma2@gmail.com" href="http://figureout.pt.vu/">
+        CAMUL 2015 Turma 2
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
